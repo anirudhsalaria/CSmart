@@ -37,3 +37,10 @@
         text-decoration: none;
       }
      
+
+.bg-sem{
+  
+  background-color: #a2f9e9;
+background-image: linear-gradient(90deg, #a2f9e9 0%, #bbc5f1 100%);
+
+}
