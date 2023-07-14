@@ -21,7 +21,7 @@ const Semester = () => {
                         3rd Semester
                     </div>
                 </Link>
-                <Link href="./">
+                <Link href="./pages/4thsem">
                     <div className='p-20  bg-sem w-full h-full rounded-3lg bg-center bg-cover  shadow-2xl '>
                         4th Semester
                     </div>
