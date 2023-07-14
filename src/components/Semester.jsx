@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Semester = () => {
     return (
-        <div className='w-full  '>
+        <div className='w-full mb-12  '>
             <h1 className='text-center text-4xl font-semibold text-accent-dark hover:text-jacarta-900 mt-8'>Which Semester?</h1>
             <div className='container  grid md:grid-cols-2 sm:grid-rows-1 p-2 gap-12 text-2xl font-bold text-center mt-8'>
                 <Link href="./">
