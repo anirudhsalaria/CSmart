@@ -95,6 +95,7 @@ module.exports = {
 
       borderRadius: {
         "2lg": "0.625rem",
+        "3lg": "1.225rem"
       },
       transitionProperty: {
         height: "height",
@@ -104,6 +105,11 @@ module.exports = {
         fly: "fly 6s cubic-bezier(0.75, 0.02, 0.31, 0.87) infinite",
         heartBeat: "heartBeat 1s cubic-bezier(0.75, 0.02, 0.31, 0.87) infinite",
         progress: "progress 5s linear",
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       keyframes: {
         fly: {
