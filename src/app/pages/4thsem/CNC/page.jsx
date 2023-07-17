@@ -41,10 +41,10 @@ const page = () => {
         {data.map((plan) => (
           <div className=' p-2 rounded-3lg shadow-xl hover:shadow-2xl grid md:grid-cols-2 sm:grid-rows-1'>
             <div className=' m-auto text-xl'>
-              Name of file
+              {plan.attributes.Title}
             </div>
             <div className=' m-auto'>
-              <Link href="./">
+              <Link href={`${plan.attributes.Detail}`} target='_blank'>
                 <button className='btn-grad rounded-full '>
                   Download
                 </button>
