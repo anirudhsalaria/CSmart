@@ -6,5 +6,5 @@ export{
     Header,
     Hero,
     Semester,
-    Footer
+    Footer,
 };
