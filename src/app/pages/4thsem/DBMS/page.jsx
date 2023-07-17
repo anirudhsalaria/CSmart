@@ -46,7 +46,7 @@ const page = () => {
               {plan.attributes.Title}
             </div>
             <div className=' m-auto'>
-              <Link href={`${plan.attributes.Details}`}>
+              <Link href={`${plan.attributes.Details}`} target="_blank">
                 <button className='btn-grad rounded-full '>
                   Download
                 </button>
