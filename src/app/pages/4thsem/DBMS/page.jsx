@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link'
 
-const page = () => {
+const Page = () => {
   const [data, setData] = useState([]);
 
   const fetchData = async () => {
@@ -59,4 +59,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

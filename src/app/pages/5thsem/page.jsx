@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const page = () => {
+const Page = () => {
     return (
         <div className='w-full hero-bg'>
             <h1 className='text-center text-4xl font-semibold text-accent-dark hover:text-jacarta-900 pt-10'>Which Subject?</h1>
@@ -36,4 +36,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
