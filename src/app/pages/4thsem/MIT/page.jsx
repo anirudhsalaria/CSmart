@@ -39,7 +39,7 @@ const Page = () => {
     <div className='container p-4  grid grid-cols-1'>
       <h1 className='text-center text-4xl font-semibold text-accent-dark hover:text-jacarta-900 pt-10'>Here You Go!!!</h1>
       {data.map((plan) => (
-      <div className=' p-2 rounded-3lg shadow-xl hover:shadow-2xl grid md:grid-cols-2 sm:grid-rows-1'>
+      <div key={plan.id} className=' p-2 rounded-3lg shadow-xl hover:shadow-2xl grid md:grid-cols-2 sm:grid-rows-1'>
         <div className=' m-auto text-xl'>
           {plan.attributes.Title}
         </div>
